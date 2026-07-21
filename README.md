@@ -19,9 +19,9 @@ StudentHub is a simple College Event Management Website developed as part of the
 
 | File Name | Description |
 |------------|-------------|
-| index.html | Home Page |
-| about.html | About StudentHub |
 | login.html | Student Login |
+| Home.html | Home Page |
+| about.html | About StudentHub |
 | register.html | Student Registration |
 | dashboard.html | Student Dashboard |
 | events.html | Upcoming Events |
