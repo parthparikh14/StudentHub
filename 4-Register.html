@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StudentHub | Register</title>
+    </head>
+    <body>
+        <header>
+            <h1>StudentHub</h1>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="events.html">Events</a> |
+                <a href="profile.html">Profile</a> |
+                <a href="contact.html">Contact</a> |
+                <a href="faq.html">FAQ</a> |
+                <a href="register.html">Register</a> |
+                <a href="login.html">Login</a>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <section>
+                <h2>Create Account</h2>
+                <p>Fill in the details below to create your StudentHub account.</p>
+                <form action="login.html" method="post">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="name">Full Name</label> <br>
+                        <input type="text" id="name" name="name" required> <br><br>
+
+                        <label for="enroll">Enrollment Number</label> <br>
+                        <input type="text" id="enroll" name="enroll" required> <br><br>
+
+                        <label for="email">Email</label> <br>
+                        <input type="email" id="email" name="email" required> <br><br>
+
+                        <label for="mobile">Mobile Number</label> <br>
+                        <input type="tel"  id="mobile" name="mobile" required> <br><br>
+
+                        <label>Gender</label> <br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Information</legend> 
+                        <label for="course">Course</label> <br>
+                        <select id="course" name="course">
+                            <option>Select course</option>
+                            <option>B.Tech CSE</option>
+                            <option>B.Tech IT</option>
+                            <option>B.Tech CE</option> 
+                        </select>
+                        <br><br>
+                        <label for="semester">Semester</label> <br>
+                        <select id="semester" name="semester">
+                            <option>Select Semester</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                        </select>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Account Details</legend>
+                        <label for="username">Username</label> <br>
+                        <input type="text" id="username" name="username" required> <br><br>
+                        <label for="password">Password</label> <br>
+                        <input type="password" id="password" name="password" required> <br><br>
+                        <label for="confirm">Confirm Password</label> <br>
+                        <input type="password" id="confirm" name="confirm" required> <br><br>
+                    </fieldset>
+                    <br>
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">I agree to the Terms and Conditions.</label> <br><br>
+                    <input type="submit" value="Create Account">
+                    <input type="reset" value="Clear">
+                </form>
+                <p>Already have an account? <a href="login.html">Login</a> </p>
+            </section>
+            <aside>
+                <h3>Registration Tips</h3>
+                <p>Use a valid email address and remember your username and password for future login.</p>
+            </aside>
+        </main>
+        <hr>
+        <footer>
+            <p>&copy; 2026 StudentHub | Charusat University</p>
+        </footer>
+    </body>
+</html>
