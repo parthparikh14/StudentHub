@@ -81,4 +81,8 @@ CHARUSAT University
 
 ## License
 
+<<<<<<< HEAD
 This project is created for educational purposes only.
+=======
+This project is created for educational purposes only.
+>>>>>>> d85f8db06546cd96b712583550b95ed2792cab0b
