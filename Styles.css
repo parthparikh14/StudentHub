@@ -1,0 +1,9 @@
+#body1{
+   text-align: center; 
+}
+
+#body2 {
+    display: table;       
+    margin: 0 auto;        
+    text-align: left;    
+}
