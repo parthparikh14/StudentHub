@@ -1,88 +1,75 @@
 # StudentHub
 
-StudentHub is a simple College Event Management Website developed as part of the Web Designing Practical. This project provides basic webpages for students to register, login, view events, manage their profile, and contact the administration.
+StudentHub is a simple College Student Portal and Event Management Website developed as part of the Web Designing Practical. It helps students register, login, view college events, manage their profile and contact the StudentHub team.
+
+## Quick Start
+
+1. Open the StudentHub project folder in Visual Studio Code.
+2. Make sure all HTML files, `styles.css` and `logo.png` are in the same folder.
+3. Open `01-Home.html` in any web browser.
+4. Use the navigation menu to explore the website.
 
 ## Features
 
-- Student Login
+- Student Home Page
+- About StudentHub
 - Student Registration
-- Home Page
-- About Page
+- Student Login
 - Student Dashboard
-- Events Page
+- College Events
 - Student Profile
 - Contact Form
-- Admin Login
 - Frequently Asked Questions (FAQ)
+- Admin Login
+- Connected navigation between all pages
+- CHARUSAT University logo and branding
 
 ## Project Pages
 
 | File Name | Description |
 |------------|-------------|
-| login.html | Student Login |
-| home.html | Home Page |
-| about.html | About StudentHub |
-| register.html | Student Registration |
-| dashboard.html | Student Dashboard |
-| events.html | Upcoming Events |
-| profile.html | Student Profile |
-| contact.html | Contact Form |
-| admin.html | Admin Login |
-| faq.html | Frequently Asked Questions |
+| `01-Home.html` | StudentHub Home Page |
+| `02-About.html` | About StudentHub |
+| `03-Register.html` | Student Registration |
+| `04-Login.html` | Student Login |
+| `05-Dashboard.html` | Student Dashboard |
+| `06-Events.html` | College Events |
+| `07-Profile.html` | Student Profile |
+| `08-Contact.html` | Contact and Support |
+| `09-FAQ.html` | Frequently Asked Questions |
+| `10-Admin.html` | Admin Login and Functions |
 
 ## Technologies Used
 
 - HTML5
+- CSS3
+- Visual Studio Code
+
+## Prerequisites
+
+To run this project, you need:
+
+- A web browser such as Google Chrome
+- Visual Studio Code
+- Basic knowledge of HTML and CSS
+
+No additional software or packages are required.
 
 ## Project Structure
 
-```
+```text
 StudentHub/
 │
-├── login.html
-├── home.html
-├── about.html
-├── register.html
-├── dashboard.html
-├── events.html
-├── profile.html
-├── contact.html
-├── admin.html
-├── faq.html
-│
+├── 01-Home.html
+├── 02-About.html
+├── 03-Register.html
+├── 04-Login.html
+├── 05-Dashboard.html
+├── 06-Events.html
+├── 07-Profile.html
+├── 08-Contact.html
+├── 09-FAQ.html
+├── 10-Admin.html
+├── styles.css
+├── logo.png
 └── README.md
-
-```
-
-## How to Run
-
-1. Download or clone the repository.
-2. Open the project folder.
-3. Open `index.html` in any web browser.
-4. Navigate through the website using the menu links.
-
-## Future Improvements
-
-- Add CSS for better design.
-- Add JavaScript for form validation.
-- Make the website responsive.
-- Connect with a database.
-- Develop a complete backend.
-
-## Author
-
-**Parth Parikh**
-
-Enrollment No.: **25DCS070**
-
-Course: **B.Tech CSE**
-
-CHARUSAT University
-
-## License
-
-<<<<<<< HEAD
-This project is created for educational purposes only.
-=======
-This project is created for educational purposes only.
->>>>>>> d85f8db06546cd96b712583550b95ed2792cab0b

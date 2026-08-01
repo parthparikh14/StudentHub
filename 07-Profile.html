@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>StudentHub | Profile</title>
-    </head>
-    <body>
-        <header>
-            <h1>StudentHub</h1>
-            <nav>
-                <a href="index.html">Home</a> |
-                <a href="about.html">About</a> |
-                <a href="dashboard.html">Dashboard</a> |
-                <a href="events.html">Events</a> |
-                <a href="profile.html">Profile</a> |
-                <a href="contact.html">Contact</a> |
-                <a href="faq.html">FAQ</a> |
-                <a href="login.html">Logout</a>
-            </nav>
-            <hr>
-        </header>
-        <main>
-            <h2>My Profile</h2>
-            <p>Update your personal and academic information.</p>
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <label for="name">Full Name</label> <br>
-                    <input type="text" id="name" name="name"><br> <br>
-                
-                    <label for="enroll">Enrollment Number</label> <br>
-                    <input type="text" id="enroll" name="enroll"> <br><br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub | Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="CHARUSAT Logo" width="60">
+        <h1>StudentHub</h1>
+        <nav>
+            <a href="01-Home.html">Home</a> |
+            <a href="02-About.html">About</a> |
+            <a href="03-Register.html">Register</a> |
+            <a href="04-Login.html">Login</a> |
+            <a href="05-Dashboard.html">Dashboard</a> |
+            <a href="06-Events.html">Events</a> |
+            <a href="07-Profile.html">Profile</a> |
+            <a href="08-Contact.html">Contact</a> |
+            <a href="09-FAQ.html">FAQ</a> |
+            <a href="10-Admin.html">Admin</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h2>My Profile</h2>
+        <p>View and update your personal and academic information.</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="name"><br><br>
 
-                    <label for="email">Email</label> <br>
-                    <input type="email" id="email" name="email"> <br><br>
+                <label for="enroll">Enrollment Number</label><br>
+                <input type="text" id="enroll" name="enroll"><br><br>
 
-                    <label for="mobile">Mobile Number</label> <br>
-                    <input type="tel" id="mobile" name="mobile"> <br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br><br>
 
-                    <label for="address">Address</label><br>
-                    <textarea id="address" name="address" rows="4" cols="40"></textarea>
-                </fieldset>  <br>
-                <fieldset>
+                <label for="mobile">Mobile Number</label><br>
+                <input type="tel" id="mobile" name="mobile"><br><br>
+
+                <label for="address">Address</label><br>
+                <textarea id="address" name="address" rows="4" cols="35"></textarea>
+            </fieldset>
+            <br>
+            <fieldset>
                 <legend>Academic Information</legend>
-                <label for="course">Course</label> <br>
+                <label for="course">Course</label><br>
                 <select id="course" name="course">
                     <option>B.Tech CSE</option>
                     <option>B.Tech IT</option>
                     <option>B.Tech CE</option>
-                </select> <br><br>
+                </select><br><br>
+
                 <label for="semester">Semester</label><br>
                 <select id="semester" name="semester">
                     <option>1</option>
@@ -60,24 +66,19 @@
                     <option>7</option>
                     <option>8</option>
                 </select>
-            </fieldset> <br>
-            <fieldset>
-                <legend>Change Password</legend>
-                <label for="password">New Password</label><br>
-                <input type="password" id="password" name="password"><br><br>
-
-                <label for="confirm">Confirm Password</label><br>
-                <input type="password" id="confirm" name="confirm">
-
-            </fieldset> <br>
-
+            </fieldset>
+            <br>
             <input type="submit" value="Update Profile">
-            <input type="reset" value="Cancel">
-            </form>
-        </main>   
-        <hr>
-        <footer>
-            <p>&copy; 2026 StudentHub | Charusat University</p>
-        </footer>
-    </body>
-</html>             
+            <input type="reset" value="Clear">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 StudentHub | CHARUSAT University</p>
+        <p>
+            <a href="08-Contact.html">Contact</a> |
+            <a href="09-FAQ.html">FAQ</a>
+        </p>
+    </footer>
+</body>
+</html>

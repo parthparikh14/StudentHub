@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub | Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="CHARUSAT University Logo" width="70">
+        <h1>StudentHub</h1>
+        <p>College Student Portal</p>
+        <nav>
+            <a href="01-Home.html">Home</a> |
+            <a href="02-About.html">About</a> |
+            <a href="03-Register.html">Register</a> |
+            <a href="04-Login.html">Login</a> |
+            <a href="05-Dashboard.html">Dashboard</a> |
+            <a href="06-Events.html">Events</a> |
+            <a href="07-Profile.html">Profile</a> |
+            <a href="08-Contact.html">Contact</a> |
+            <a href="09-FAQ.html">FAQ</a> |
+            <a href="10-Admin.html">Admin</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>Create Student Account</h2>
+            <p>Register to access StudentHub and stay updated with college activities.</p>
+            <form action="04-Login.html" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="enroll">Enrollment Number</label><br>
+                    <input type="text" id="enroll" name="enroll" required><br><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="mobile">Mobile Number</label><br>
+                    <input type="tel" id="mobile" name="mobile" required><br><br>
+
+                    <label>Gender</label><br>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="Other">
+                    <label for="other">Other</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Academic Information</legend>
+                    <label for="course">Course</label><br>
+                    <select id="course" name="course" required>
+                        <option value="">Select Course</option>
+                        <option value="B.Tech CSE">B.Tech CSE</option>
+                        <option value="B.Tech IT">B.Tech IT</option>
+                        <option value="B.Tech CE">B.Tech CE</option>
+                    </select><br><br>
+                    <label for="semester">Semester</label><br>
+                    <select id="semester" name="semester" required>
+                        <option value="">Select Semester</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Account Details</legend>
+                    <label for="username">Username</label><br>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <label for="confirm">Confirm Password</label><br>
+                    <input type="password" id="confirm" name="confirm" required><br><br>
+                </fieldset>
+                <br>
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I agree to the Terms and Conditions.</label>
+                <br><br>
+                <input type="submit" value="Create Account">
+                <input type="reset" value="Clear">
+            </form>
+            <p>Already have an account? <a href="04-Login.html">Login here</a></p>
+        </section>
+        <aside>
+            <h3>Registration Tips</h3>
+            <ul>
+                <li>Enter your correct enrollment number.</li>
+                <li>Use a valid email address.</li>
+                <li>Remember your username and password.</li>
+                <li>Fill all required details before submitting.</li>
+            </ul>
+        </aside>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 StudentHub | CHARUSAT University</p>
+        <p>
+            <a href="08-Contact.html">Contact</a> |
+            <a href="09-FAQ.html">FAQ</a>
+        </p>
+    </footer>
+</body>
+</html>

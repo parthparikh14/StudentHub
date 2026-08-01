@@ -1,76 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>StudentHub | Dashboard</title>
-    </head>
-    <body>
-        <header>
-            <h1>StudentHub</h1>
-            <nav>
-                <a href="index.html">Home</a> |
-                <a href="about.html">About</a> |
-                <a href="dashboard.html">Dashboard</a> |
-                <a href="events.html">Events</a> |
-                <a href="profile.html">Profile</a> |
-                <a href="contact.html">Contact</a> |
-                <a href="faq.html">FAQ</a> |
-                <a href="login.html">Logout</a>
-            </nav>
-            <hr>
-        </header>
-        <main>
-            <h2>Student Dashboard</h2>
-            <p>Welcome to StudentHub. Use the dashboard to access different sections of the portal.</p>
-            <section>
-                <h3>My Account</h3>
-                <table border="2" cellpadding="7">
-                    <tr>
-                        <th>Category</th>
-                        <th>Status</th>
-                    </tr>
-                    <tr>
-                        <td>Account Status</td>
-                        <td>Active</td>
-                    </tr>
-                    <tr>
-                        <td>Profile</td>
-                        <td>Available</td>
-                    </tr>
-                    <tr>
-                        <td>Events</td>
-                        <td>View from Events Page</td>
-                    </tr>
-                    <tr>
-                        <td>Support</td>
-                        <td>Available</td>
-                    </tr>
-                </table>
-            </section>
-            <br>
-            <section>
-                <h3>Announcements</h3>
-                <ul>
-                    <li>Hackathon registration is now open.</li>
-                    <li>Sports Day schedule has been published.</li>
-                    <li>Carry your college ID card during all events.</li>
-                    <li>Visit the Events page for complete details.</li>
-                </ul>
-            </section>
-            <section>
-                <h3>Quick Access</h3>
-                <p>
-                    <a href="profile.html">My Profile</a> |
-                    <a href="events.html">Events</a> |
-                    <a href="contact.html">Contact</a> |
-                    <a href="faq.html">FAQ</a>
-                </p>
-            </section>
-        </main>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub | Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="CHARUSAT University Logo" width="70">
+        <h1>StudentHub</h1>
+        <p>Student Portal</p>
+        <nav>
+            <a href="01-Home.html">Home</a> |
+            <a href="02-About.html">About</a> |
+            <a href="03-Register.html">Register</a> |
+            <a href="04-Login.html">Login</a> |
+            <a href="05-Dashboard.html">Dashboard</a> |
+            <a href="06-Events.html">Events</a> |
+            <a href="07-Profile.html">Profile</a> |
+            <a href="08-Contact.html">Contact</a> |
+            <a href="09-FAQ.html">FAQ</a> |
+            <a href="10-Admin.html">Admin</a>
+        </nav>
         <hr>
-        <footer>
-            <p>&copy; 2026 StudentHub | Charusat University</p>
-        </footer>
-    </body>
+    </header>
+    <main>
+        <section>
+            <h2>Student Dashboard</h2>
+            <p>Welcome back, Student!</p>
+            <p>Manage your profile, discover college events and stay connected with StudentHub.</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Student Overview</h2>
+            <table border="2" cellpadding="10">
+                <tr>
+                    <th>Student</th>
+                    <th>Course</th>
+                    <th>Semester</th>
+                    <th>Account</th>
+                </tr>
+                <tr>
+                    <td>Student Name</td>
+                    <td>B.Tech CSE</td>
+                    <td>3</td>
+                    <td>Active</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Quick Actions</h2>
+            <table border="2" cellpadding="12">
+                <tr>
+                    <td>
+                        <h3>My Profile</h3>
+                        <p>View and update your personal and academic details.</p>
+                        <a href="07-Profile.html">Open Profile</a>
+                    </td>
+                    <td>
+                        <h3>College Events</h3>
+                        <p>Find upcoming technical, cultural and sports events.</p>
+                        <a href="06-Events.html">Explore Events</a>
+                    </td>
+                    <td>
+                        <h3>Student Support</h3>
+                        <p>Contact the StudentHub team if you need any help.</p>
+                        <a href="08-Contact.html">Get Support</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        
+        <section>
+            <h2>My Activity</h2>
+            <table border="2" cellpadding="10">
+                <tr>
+                    <th>Activity</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Student Profile</td>
+                    <td>Available</td>
+                    <td><a href="07-Profile.html">View</a></td>
+                </tr>
+                <tr>
+                    <td>College Events</td>
+                    <td>Available</td>
+                    <td><a href="06-Events.html">View</a></td>
+                </tr>
+                <tr>
+                    <td>Student Support</td>
+                    <td>Available</td>
+                    <td><a href="08-Contact.html">Contact</a></td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Important Information</h2>
+            <ul>
+                <li>Keep your StudentHub profile information updated.</li>
+                <li>Check the Events page before participating in college activities.</li>
+                <li>Carry your college ID card during official events.</li>
+                <li>Contact StudentHub support if you face any issue.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Need Help?</h2>
+            <p>Check our frequently asked questions or contact the StudentHub team.</p>
+            <a href="09-FAQ.html">Visit FAQ</a> |
+            <a href="08-Contact.html">Contact Support</a>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 StudentHub | CHARUSAT University</p>
+        <p>
+            <a href="08-Contact.html">Contact</a> |
+            <a href="09-FAQ.html">FAQ</a> |
+            <a href="04-Login.html">Logout</a>
+        </p>
+    </footer>
+</body>
 </html>
